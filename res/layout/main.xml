@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Nome Prodotto"
+    android:id="@+id/tvNome"
+    />
+    
+<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:id="@+id/etNome"
+	/>
+	
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Descrizione"
+    android:id="@+id/tvDesc"
+    />
+<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:id="@+id/etDesc"
+	/>
+	
+<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Invia Dati"
+	android:id="@+id/bInvia"
+	android:layout_gravity="center"
+	/>
+	
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/tvRes"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    />
+    
+
+    	
+</LinearLayout>
